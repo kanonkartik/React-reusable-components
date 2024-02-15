@@ -1,0 +1,57 @@
+.qr-generator-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qr-generator-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-generator-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.qr-generator-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.qr-generator-button button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.qr-generator-button button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.qr-generator-button button:hover:enabled {
+    background-color: #0056b3;
+}
+
+.qr-generator-qrcode {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
